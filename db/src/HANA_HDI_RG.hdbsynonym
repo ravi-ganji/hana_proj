@@ -1,0 +1,14 @@
+{
+  "com.sap::SFLIGHT": {
+    "target": {
+      "object": "SFLIGHT",
+      "schema": "SAMPLE"
+    }
+  },
+  "com.sap::SBOOK": {
+    "target": {
+      "object": "SBOOK",
+      "schema": "SAMPLE"
+    }
+  }
+}

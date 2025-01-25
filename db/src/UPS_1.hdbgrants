@@ -1,0 +1,18 @@
+{
+    "UPS_1": {
+        "object_owner": {
+            "global_roles": [
+                {
+                    "roles": ["GenericRoleForOO"]
+                }
+            ]
+        },
+        "application_user": {
+            "global_roles": [
+                {
+                    "roles": ["GenericRoleForAU"]
+                }
+            ]
+        }
+    }
+}
