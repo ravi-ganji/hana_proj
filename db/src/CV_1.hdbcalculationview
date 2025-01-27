@@ -121,11 +121,11 @@
     </shape>
     <shape modelObjectName="com.sap::SBOOK" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
       <upperLeftCorner x="16" y="16"/>
-      <rectangleSize width="164.681640625"/>
+      <rectangleSize width="164"/>
     </shape>
     <shape modelObjectName="com.sap::SFLIGHT" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
-      <upperLeftCorner x="244.681640625" y="96"/>
-      <rectangleSize width="172.005859375"/>
+      <upperLeftCorner x="244" y="96"/>
+      <rectangleSize width="172"/>
     </shape>
   </shapes>
 </layout>
