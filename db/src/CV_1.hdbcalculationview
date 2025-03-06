@@ -25,6 +25,7 @@
       <viewAttribute id="CURRENCY"/>
       <viewAttribute id="PLANETYPE"/>
       <viewAttribute id="SEATSOCC" aggregationType="sum"/>
+      <viewAttribute id="CLASS"/>
       <viewAttribute hidden="true" id="JOIN$CARRID$CARRID"/>
       <viewAttribute hidden="true" id="JOIN$CONNID$CONNID"/>
       <viewAttribute hidden="true" id="JOIN$FLDATE$FLDATE"/>
@@ -37,6 +38,7 @@
       <mapping xsi:type="Calculation:AttributeMapping" target="BOOKID" source="BOOKID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="CUSTOMID" source="CUSTOMID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="ORDER_DATE" source="ORDER_DATE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CLASS" source="CLASS"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$CARRID$CARRID" source="CARRID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$CONNID$CONNID" source="CONNID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$FLDATE$FLDATE" source="FLDATE"/>
@@ -89,6 +91,11 @@
     <attribute id="PLANETYPE" order="9" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="PLANETYPE"/>
       <keyMapping columnObjectName="Join_1" columnName="PLANETYPE"/>
+    </attribute>
+  
+    <attribute id="CLASS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CLASS"/>
+      <keyMapping columnObjectName="Join_1" columnName="CLASS"/>
     </attribute>
   </attributes>
   <calculatedAttributes/>
